@@ -3,8 +3,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import ParseMode
 import logging
 
-API_TOKEN = "YOUR_BOT_TOKEN_HERE"
-CHANNEL_ID = "@YourChannel"  # Replace with your actual channel handle
+API_TOKEN = "7797559592:AAHeF6xCVpI8smC4JVXTCvaN-jcdEMjhY48"
+CHANNEL_ID = "@lover581"  # Replace with your actual channel handle
 
 bot = Bot(token=API_TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
@@ -29,8 +29,8 @@ async def send_welcome(message: types.Message):
 @dp.message_handler(commands=["jaalala"])
 async def send_love_quote(message: types.Message):
     quote = LOVE_QUOTES[current_index % len(LOVE_QUOTES)]
-    message_text = f"{quote}\n\n<b>Sirbo Jaalalaa fi Ergaa Haaraa: {CHANNEL_ID}</b>"
-    await message.answer(message_text)
+    message_text = f"{quote}\n\n<b>Jechoota Jaalalaa fi Ergaa Haaraa: {CHANNEL_ID}</b>"
+    await message.answer(messag1e_text)
 
 async def main():
     logging.basicConfig(level=logging.INFO)
