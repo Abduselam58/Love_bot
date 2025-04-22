@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import ParseMode
 import logging
 
-API_TOKEN = "7797559592:AAHeF6xCVpI8smC4JVXTCvaN-jcdEMjhY48"
+API_TOKEN = "7797559592:AAFNheuJBU9otDVOpI3gd5vc7h2qzyVXK7M"
 CHANNEL_ID = "@lover581"  # Replace with your actual channel handle
 
 bot = Bot(token=API_TOKEN, parse_mode=ParseMode.HTML)
